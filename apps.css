@@ -13,6 +13,24 @@
       color: white;
       font-size: 30px;
   }
+
+
+
+/* Contact Info Bar */
+/* Add container to contain the contact info bar. */
+.containerinfo {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  /* Add a colour size, allignment to the header. */
+  .contactinfobar {
+      padding: 60px;
+      text-align: center;
+      background: #000000;
+      color: #eacc67;
+      font-size: 15px;
+  }
   
   
   
