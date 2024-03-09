@@ -1,0 +1,90 @@
+/* Header */
+/* Add container to contain the heaader. */
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Add a colour size, allignment to the header. */
+  .header {
+      padding: 60px;
+      text-align: center;
+      background: #eacc67;
+      color: white;
+      font-size: 30px;
+  }
+  
+  
+  
+  /* About */
+  /* Add container to contain the About section. */
+  .container2 {
+      position: relative;
+      text-align: left;
+      color: white;
+  }
+  /* Add a colour size, allignment to the about text. */
+  .about {
+      padding: 60px;
+      text-align: left;
+      background: #eacc67;
+      color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  /* Education */
+  /* Create three equal columns for education. */
+  .column {
+      float: left;
+      width: 33.33%;
+  }
+    
+  /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  /* Add container to contain the Education section. */
+  .container3 {
+      position: relative;
+      text-align: left;
+      color: white;
+  }
+  /* Add a colour size, allignment to the education  text. */
+  .education {
+      padding: 60px;
+      text-align: left;
+      background: #eacc67;
+      color: rgb(255, 255, 255);
+  }
+  
+  
+  
+  /* Projects */
+  /* Create three equal columns for education. */
+  .column {
+      float: left;
+      width: 33.33%;
+  }
+    
+  /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  /* Add container to contain the Education section. */
+  .container4 {
+      position: relative;
+      text-align: left;
+      color: rgb(255, 255, 255);
+  }
+  /* Add a colour size, allignment to the education  text. */
+  .projects {
+      padding: 60px;
+      text-align: left;
+      background: #eacc67;
+      color: rgb(0, 0, 0);
+  }
