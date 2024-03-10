@@ -106,3 +106,20 @@
       background: #eacc67;
       color: rgb(0, 0, 0);
   }
+
+
+
+/* Work Experience */
+  /* Add container to contain the work experience section. */
+  .container5 {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+/* Add a colour size, allignment to the about text. */
+.workexperience {
+    padding: 60px;
+    text-align: left;
+    background: #eacc67;
+    color: rgb(0, 0, 0);
+}
