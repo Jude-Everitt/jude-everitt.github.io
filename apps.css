@@ -3,7 +3,7 @@
 .container1 {
     position: relative;
     text-align: center;
-    color: white;
+    color: #f87b37;
   }
   /* Add positioning to the profile photo. */
   .profilephoto {
@@ -27,7 +27,7 @@
 .containerinfo {
     position: relative;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #f87b37;
   }
   /* Add a colour size, allignment to the header. */
   .contactinfobar {
@@ -45,7 +45,7 @@
   .container2 {
       position: relative;
       text-align: left;
-      color: white;
+      color: #f87b37;
   }
   /* Add a colour size, allignment to the about text. */
   .about {
@@ -74,7 +74,7 @@
   .container3 {
       position: relative;
       text-align: left;
-      color: white;
+      color: #f87b37;
   }
   /* Add a colour size, allignment to the education  text. */
   .education {
@@ -103,7 +103,7 @@
   .container4 {
       position: relative;
       text-align: left;
-      color: rgb(255, 255, 255);
+      color: #f87b37;
   }
   /* Add a colour size, allignment to the education  text. */
   .projects {
