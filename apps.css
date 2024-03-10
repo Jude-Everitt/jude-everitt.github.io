@@ -8,7 +8,7 @@
   /* Add positioning to the profile photo. */
   .profilephoto {
     padding: 60px;
-    image: Left;
+    position: left;
     background: #50704e;
 }
   /* Add a colour size, allignment to the header. */
