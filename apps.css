@@ -5,11 +5,17 @@
     text-align: center;
     color: white;
   }
+  /* Add positioning to the profile photo. */
+  .profilephoto {
+    padding: 60px;
+    image: Left;
+    background: #ffb23f;
+}
   /* Add a colour size, allignment to the header. */
   .header {
       padding: 60px;
-      text-align: center;
-      background: #eacc67;
+      text-align: Right;
+      background: #ffb23f;
       color: white;
       font-size: 30px;
   }
@@ -28,7 +34,7 @@
       padding: 60px;
       text-align: center;
       background: #000000;
-      color: #eacc67;
+      color: #ffb23f;
       font-size: 15px;
   }
   
@@ -45,7 +51,7 @@
   .about {
       padding: 60px;
       text-align: left;
-      background: #eacc67;
+      background: #ffb23f;
       color: rgb(0, 0, 0);
   }
   
@@ -74,7 +80,7 @@
   .education {
       padding: 60px;
       text-align: left;
-      background: #eacc67;
+      background: #ffb23f;
       color: rgb(255, 255, 255);
   }
   
@@ -103,7 +109,7 @@
   .projects {
       padding: 60px;
       text-align: left;
-      background: #eacc67;
+      background: #ffb23f;
       color: rgb(0, 0, 0);
   }
 
@@ -114,12 +120,12 @@
   .container5 {
     position: relative;
     text-align: left;
-    color: #eacc67;
+    color: #ffb23f;
 }
 /* Add a colour size, allignment to the about text. */
 .workexperience {
     padding: 60px;
     text-align: left;
-    background: #eacc67;
+    background: #ffb23f;
     color: rgb(0, 0, 0);
 }
