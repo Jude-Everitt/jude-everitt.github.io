@@ -3,20 +3,20 @@
 .container1 {
     position: relative;
     text-align: center;
-    color: #f87b37;
+    color: #000000;
   }
   /* Add positioning to the profile photo. */
   .profilephoto {
     padding: 60px;
     position: left;
-    background: #50704e;
+    background: #ffffff;
 }
   /* Add a colour size, allignment to the header. */
   .header {
       padding: 60px;
       text-align: Right;
       background: #50704e;
-      color: white;
+      color: #ff5757;
       font-size: 30px;
   }
 
@@ -27,14 +27,14 @@
 .containerinfo {
     position: relative;
     text-align: center;
-    color: #f87b37;
+    color: #000000;
   }
   /* Add a colour size, allignment to the header. */
   .contactinfobar {
       padding: 60px;
       text-align: center;
-      background: #000000;
-      color: #ffffff;
+      background: #ff5757;
+      color: #000000;
       font-size: 15px;
   }
   
@@ -45,13 +45,13 @@
   .container2 {
       position: relative;
       text-align: left;
-      color: #f87b37;
+      color: #000000;
   }
   /* Add a colour size, allignment to the about text. */
   .about {
       padding: 60px;
       text-align: left;
-      background: #50704e;
+      background: #ff5757;
       color: rgb(0, 0, 0);
   }
   
@@ -74,14 +74,14 @@
   .container3 {
       position: relative;
       text-align: left;
-      color: #f87b37;
+      color: #000000;
   }
   /* Add a colour size, allignment to the education  text. */
   .education {
       padding: 60px;
       text-align: left;
-      background: #50704e;
-      color: rgb(255, 255, 255);
+      background: #000000;
+      color: #ff5757;
   }
   
   
@@ -103,13 +103,13 @@
   .container4 {
       position: relative;
       text-align: left;
-      color: #f87b37;
+      color: #000000;
   }
   /* Add a colour size, allignment to the education  text. */
   .projects {
       padding: 60px;
       text-align: left;
-      background: #50704e;
+      background: #ff5757;
       color: rgb(0, 0, 0);
   }
   /* Add picture gallery settings. */
@@ -167,12 +167,12 @@
   .container5 {
     position: relative;
     text-align: left;
-    color: #50704e;
+    color: #000000;
 }
 /* Add a colour size, allignment to the about text. */
 .workexperience {
     padding: 60px;
     text-align: left;
-    background: #50704e;
-    color: rgb(255, 255, 255);
+    background: #ff5757;
+    color: rgb(0, 0, 0);
 }
