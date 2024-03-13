@@ -33,8 +33,8 @@
   .contactinfobar {
       padding: 60px;
       text-align: center;
-      background: #ff5757;
-      color: #000000;
+      background: #000000;
+      color: #ff5757;
       font-size: 15px;
   }
   
@@ -86,7 +86,7 @@
   
   
   
-  /* Projects */
+  /* Education */
   /* Create three equal columns for education. */
   .column {
       float: left;
