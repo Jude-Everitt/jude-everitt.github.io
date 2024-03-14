@@ -4,19 +4,19 @@
   .profilephoto {
     padding: 60px;
     position: left;
-    background: #000000;
+    background: #100101;
 }
 .container1 {
   position: relative;
   text-align: right;
-  color: #000000;
+  color: #1d0101;
 }
   /* Add a colour size, allignment to the header. */
   .header {
       padding: 60px;
       position: relative;
       text-align: Right;
-      background: #000000;
+      background: #100101;
       color: #ff5757;
       font-size: 30px;
   }
@@ -25,7 +25,7 @@
     float: left;
     width: 200px;
     height: 100px;
-    background: #000000;
+    background: #100101;
   }
 
 
@@ -35,14 +35,14 @@
 .containerinfo {
     position: relative;
     text-align: center;
-    color: #000000;
+    color: #100101;
   }
   /* Add a colour size, allignment to the header. */
   .contactinfobar {
       padding: 60px;
       text-align: center;
       background: #ff5757;      ;
-      color: #000000;
+      color: #100101;
       font-size: 15px;
   }
   
@@ -53,14 +53,14 @@
   .container2 {
       position: relative;
       text-align: left;
-      color: #000000;
+      color: #100101;
   }
   /* Add a colour size, allignment to the about text. */
   .about {
       padding: 60px;
       text-align: left;
       background: #ff5757;
-      color: rgb(0, 0, 0);
+      color: #100101;
   }
   
   
@@ -82,13 +82,13 @@
   .container3 {
       position: relative;
       text-align: left;
-      color: #000000;
+      color: #100101;
   }
   /* Add a colour size, allignment to the education  text. */
   .education {
       padding: 60px;
       text-align: left;
-      background: #000000;
+      background: #100101;
       color: #ff5757;
   }
   
@@ -111,14 +111,14 @@
   .container4 {
       position: relative;
       text-align: left;
-      color: #000000;
+      color: #100101;
   }
   /* Add a colour size, allignment to the education  text. */
   .projects {
       padding: 60px;
       text-align: left;
       background: #ff5757;
-      color: rgb(0, 0, 0);
+      color: #100101;
   }
   /* Add picture gallery settings. */
   div.gallery {
@@ -175,14 +175,14 @@
   .container5 {
     position: relative;
     text-align: left;
-    color: #000000;
+    color: #100101;
 }
 /* Add a colour size, allignment to the about text. */
 .workexperience {
     padding: 60px;
     text-align: left;
     background: #ff5757;
-    color: rgb(0, 0, 0);
+    color: #100101;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -206,7 +206,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #000000;
+  color: #100101;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -216,7 +216,7 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ff5757;
-  color: black;
+  color: #100101;
 }
 
 /* Add an active class to highlight the current page */
@@ -251,7 +251,7 @@
   padding: 60px;
   position: relative;
   text-align: Right;
-  background: #000000;
+  background: #100101;
   color: #ff5757;
   font-size: 10px;
 }
@@ -260,5 +260,5 @@
   float: left;
   width: 50px;
   height: 25px;
-  background: #000000;
+  background: #100101;
 }
