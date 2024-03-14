@@ -1,16 +1,9 @@
-/* Logo. */
+
+/* Logo styles */
 .logo {
-  padding: 60px;
-  position: left;
+  max-width: 100px;
 }
 
-/* Header */
-/* Add container to contain the heaader. */
-.container1 {
-    position: relative;
-    text-align: center;
-    color: #000000;
-  }
   /* Add positioning to the profile photo. */
   .profilephoto {
     padding: 60px;
