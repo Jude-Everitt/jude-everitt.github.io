@@ -1,6 +1,7 @@
 /* Logo. */
 .logo {
-  position: fixed;
+  padding: 60px;
+  position: left;
 }
 
 /* Header */
