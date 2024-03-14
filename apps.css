@@ -14,10 +14,18 @@
   /* Add a colour size, allignment to the header. */
   .header {
       padding: 60px;
+      position: relative;
       text-align: Right;
       background: #000000;
       color: #ff5757;
       font-size: 30px;
+  }
+
+  .header img {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: #000000;
   }
 
 
