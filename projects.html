@@ -3,15 +3,16 @@
 <link rel="stylesheet" href="apps.css"/>
 <script type="javascript" src="apps.js"></script>
 <!-- Projects Page -->
+
 <!-- Header -->
 <header>
- <div class="container1">
-    <div class="header" style="position: fixed right;">
+<div class="container1">
+<div class="header" style="position: fixed right;">
         <title>Jude Everitt/Projects</title>
         <img src="logo.jpg"><h1 style="position: fixed right;"><h1>Jude Everitt</h1>
         <p>Projects</p>
-    </div>
- </div>  
+</div>
+</div>  
 </header>
 
 
@@ -33,26 +34,173 @@
 
 <!-- Projects -->
 <div class="container4">
-    <div class="projects">
-        <h2>Projects</h2>
-        <div class="row">
-            <div class="column"></div>
-            <p style="font-size:300%;">Azure Database Migration</p>
-            <b style="font-size:150%;">AiCore: Feb 2024 - Present</b>
-            <p><a href="https://github.com/Jude-Everitt/Azure-Database-Migration.git" target="_blank"><b>Click here to view GitHub repo</b></a></p>
-            <p>Migrated a  production environment SQL Server database containing 5 tables to Azure SQL Database. Generated full backup of the production database & restored the database in a new development environment to allow safe testing & experimentation. Automated database backups in development environment using SQL Server Management Studio (SSMS). Built a discovery recovery solution for the Azure SQL Database, increasing database availability from an initial 99.5% to >99.99%. Integrated Microsoft Entra ID authentication with Azure SQL Database to create two identity management groups: administrators and read-only clients.</p>
-            <div class="column"></div>
-            <p style="font-size:300%;">Multinational Retail Data Centrilisation</p>
-            <b style="font-size:150%;">AiCore: Dec 2023 - Jan 2024</b>
-            <p><a href="https://github.com/Jude-Everitt/multinational-retail-data-centralisation377.git" target="_blank"><b>Click here to view GitHub repo</b></a></p>
-            <p>Developed a system that extracts sales data from 5 data sources: PDF documents, AWS RDS database, RESTful API, JSON & CSV files. Constructed custom Python scripts to clean and transform over 120k rows of data, before loading the data into a PostgreSQL database. Designed a star-schema database by joining 5 dimensions tables, resulting in data querying time with < 1 millisecond latency. Wrote >10 complex SQL queries to extract business insights from the data, including velocity of sales, yearly revenue and regions with the most sales.</p>
-            <div class="column"></div>
-            <p style="font-size:300%;">Exotic Nuclei: Investigating Neutron Rich Calcium Isotopes</p>
-            <p><a href="exoticnuclie.html"><b>Click here to view full project description</b></a></p>
-            <b style="font-size:150%;"> UoY Masters Dissertation: Sep 2021 - Jul 2022</b>
-            <p>The s467 campaign at GSI working in collaboration with R3B proposes that short- and long-range correlations in nucleon-nucleon interactions are the reasoning behind quenching of spectroscopic factors in (p,2p) transfer reactions. The evolution of single-particle strengths in Calcium’s neutron rich isotropic chain is investigated by measuring the cross-section of kinematically complete proton removal reactions performed in inverse kinematics. The approach of the experiment is to calculate the cross-sections by measuring the average energy loss of swift exotic particles as they travel through a Multi-Sampling-Ionisation-Chamber (MUSIC) detector. The project shows that the multiple dependencies of the Bethe-Bloch formula can simultaneously be applied to the detected average energy loss of exotic particles to calibrate and enhance the performance of MUSIC. Taking advantage of MUSICs capabilities for taking multiple measurements over a wide energy range. I created custom C++ scripts to gain match and apply statistical analysis techniques on data trees containing energy loss data on >10,000 of particle collisions for detector calibration. It was found that the detection resolution for Z=20 particles can be increased by 7%. The increased resolution brought on a means of accurately identifying particles in a Cartesian methodology using the sigma separation.</p>
-        </div>
-    </div>
+<div class="projects">
+<h2>Projects</h2>
+<div class="row">
+
+<!-- Azure Data Migration-->
+
+      <div class="column"></div>
+      <p style="font-size:300%;">Azure Database Migration</p>
+      <b style="font-size:150%;">AiCore: Feb 2024 - Mar 2024</b>
+      <p>Click <a href="https://github.com/Jude-Everitt/Azure-Database-Migration.git" target="_blank"><b>HERE </b></a>to view GitHub repo and full project description.</p>
+      <h3>Project Overview</h3>
+      <p>AdventureWorks is a fictional bicycle manufacturer based in the US with 290+ employees.</p>
+      <p>Currently, the business collates all sources of data processed in the company an on premises data warehouse running on SQL Server.</p>
+      <p>
+         For the year, the business has been set the primary main objectives:
+         <ul>
+            <li>An expansion of business into the European market to take advantage of the increased bicycle usage in comparison to the US.</li>
+            <li>The successful onboarding of new staff within the European market to help facilitate day-to-day operations within the region.</li>
+            <li>Maintenance of the data warehouse to drive data driven decision making.</li>
+         </ul>
+      </p>
+      <p>
+        The business has been facing the following business challenges:
+        <ul>
+           <li>The team operates within different parts of the US, meaning not everybody hired is able to attend the main office 5 days a week. This has lead to an increase in Capital Expenditure for the business.</li>
+           <li>The data centres' resilience has been put into question after a social engineering incident lead to the deletion of thousands of records from the database. With the all of the data for the business in one place, any corruptions within the database could lead to the business being unable to operate.</li>
+           <li>Recent hardware updates to the data centre have been expensive as all work computers must be compatible with the data centres' hardware.</li>
+        </ul>
+     </p>
+     <p>The goal is to migrate the database to the Microsoft Azure cloud platform. Back up the data, and store it within various regions which allows for greater resilience vs external threats.</p>
+     <h3>Objectives</h3>
+     <ul>
+           <li>Create, deploy and connect to a Virtual Machine (VM) on Azure.</li>
+           <li>Install SQL Server and SQL Server Management Studio (SSMS).</li>
+           <li>Use SSMS restore to create the projects production database.</li>
+           <li>Utilising Azure Data Studio's extensions: SQL Server Schema Compare and Azure SQL Migration to migrate an on premises database to an Azure SQL Database.</li>
+           <li>To utilise SSMS' Backup functionality to take full backups of databases.</li>
+           <li>To provision an Azure Storage Account to store database backups.</li>
+           <li>To create a development environment, which replicates the production environment.</li>
+           <li>To automate backups on the Development database using the SQL Server Agent.</li>
+           <li>To implement a disaster recovery solution by using a point in time restore to restore the database from a non-corrupted state.</li>
+           <li>To create a synchronised replica of the primary Azure SQL database using a Failover Group.</li>
+           <li>To implement Geo-Replication on the Azure SQL Database to improve database resiliency.</li>
+           <li>To run a successful test on the failover group implemented to demonstrate the cyclical nature of the failover strategy.</li>
+           <li>To configure Entra ID authentication for the Azure SQL DB in order to enhance database security, and configure access permissions.</li>
+           <li>To create a new user account with read only permissions to the Azure SQL Database.</li>
+     </ul>
+     <h3>Technologies Used:</h3>
+     <ul>
+           <li>Microsoft SQL Server 2022 Developer Edition</li>
+           <li>Microsoft SQL Server Management Studio 19</li>
+           <li>Azure Data Studio</li>
+           <li>Azure Virtual Machines</li>
+           <li>Azure SQL Server</li>
+           <li>Azure SQL Database</li>
+           <li>Azure Entra ID</li>
+           <li>Azure Database Migration Service</li>
+           <li>Azure Storage Accounts</li>
+     </ul>
+     <p>Below is a diagram of the architecture for used for this project.</p>
+     <div class="responsive">
+     <div class="gallery">
+        <a target="_blank" href="ADM-architecture.jpg"><img src="ADM-architecture.jpg"></a>
+          <div class="desc">A-D-M Architecture</div>
+     </div>
+     </div>
+
+<!-- MRDC -->
+      
+      <div class="column"></div>
+      <p style="font-size:300%;">Multinational Retail Data Centrilisation</p>
+      <b style="font-size:150%;">AiCore: Dec 2023 - Jan 2024</b>
+      <p>Click <a href="https://github.com/Jude-Everitt/multinational-retail-data-centralisation377.git" target="_blank"><b>HERE</b></a>to view GitHub repo and full project description.</p>
+      <h3>Project Overview</h3>
+      <p>Working with a fictional chain of retail stores. Operating in three countries, USA, UK and Germany, the retail chain specialises in selling a generalised set of products.</p>
+      <p>
+        The business has its data hosted in various data locations:
+         <ul>
+            <li>An Amazon RDS, which contains data on their users, stores and a list of their orders.</li>
+            <li>An Amazon S3 Bucket, which contains data on their products in .csv files and date_time_series data stored within .json files.</li>
+            <li>A PDF file which contains credit card details hosted on AWS.</li>
+         </ul>
+      </p>
+      <p>The business would like a way to centralise these sources of data into a single centralised datastore. Allowing SQL queries to be ran across these multiple datasources to provide insights into their data.</p>
+      <p>
+        The raw data from the source systems will be:
+        <ul>
+           <li>Extracted from their source systems.</li>
+           <li>Transformed using the Pandas Package in Python.</li>
+           <li>Loaded into a Postgresql database.</li>
+        </ul>
+     </p>
+     <p>Then create a data warehouse using a STAR schema, by utilising the Kimbal methodology for creating data models. From which after the ETL process has completed, relationships amongst tables will be formed to create the STAR schema design.</p>
+     <p>
+      After creating the STAR schema model the retail company wants to gain answers to the following questions:
+      <ul>
+         <li>* How many stores does the business have an in which countries?</li>
+         <li>* Which locations currently have the most stores?</li>
+         <li>* Which months produce the average highest cost of sales typically?</li>
+         <li>* What percentage of sales come through each type of store?</li>
+         <li>* Which month in each produced the highest cost of sales?</li>
+         <li>* What is our staff headcount?</li>
+         <li>* Which German store type is selling the most?</li>
+         <li>* How quickly is the company making sales?</li>
+      </ul>
+   </p>
+     <h3>Objects</h3>
+     <ul>
+           <li>* To produce a system that stores the current company data in a database so that it's accessed from one centralised location and acts as a single source of truth for sales data.</li>
+           <li>* Initialise a new database locally to store the extracted data.</li>
+           <li>* Set up a database within pgadmin4.</li>
+           <li>* Create a new Python script containing a utility class, containing methods that help extract data from different data sources for CSV files, an API and an S3 bucket.</li>
+           <li>* Create another script containing a connector class to connect with and upload data to the database.</li>
+           <li>* Create a script containing a data cleaning class with methods to clean data from each of the data sources.</li>
+           <li>* Develop the star-based schema of the database, ensuring that the columns are of the correct data types.</li>
+           <li>To automate backups on the Development database using the SQL Server Agent.</li>
+           <li>* Create the primary keys in the dimension tables.</li>
+           <li>* Create foreign keys to reference the primary keys in other tables.</li>
+           <li>* Query the database to get up-to-date metrics for the business.</li>
+     </ul>
+     <h3>Technologies Used:</h3>
+     <ul>
+           <li>* Python</li>
+           <li>* Pandas</li>
+           <li>* Tabula</li>
+           <li>* pgadmin4</li>
+           <li>* SQL</li>
+           <li>* AWS S3 bucket</li>
+           <li>* AWS RDS database</li>
+           <li>* AWS CLI</li>
+           <li>* CSV files</li>
+           <li>PDF document</li>
+           <li>JSON files</li>
+           <li>API</li>
+           <li>Yaml</li>
+
+     </ul>
+     <p>Below is a diagram of the architecture for used for this project.</p>
+     <div class="responsive">
+     <div class="gallery">
+        <a target="_blank" href="MRDCarchitecture.jpg"><img src="MRDCarchitecture.jpg"></a>
+          <div class="desc">A-D-M Architecture</div>
+     </div>
+     </div>
+
+     <div class="responsive">
+     <div class="gallery">
+        <a target="_blank" href="MRDC2ndarchi.jpg"><img src="MRDC2ndarchi.jpg"></a>
+          <div class="desc">A-D-M Architecture</div>
+     </div>
+     </div>
+
+     <div class="responsive">
+     <div class="gallery">
+        <a target="_blank" href="MRDCelements.jpg"><img src="MRDCelements.jpg"></a>
+          <div class="desc">A-D-M Architecture</div>
+     </div>
+     </div>
+            
+      <div class="column"></div>
+      <p style="font-size:300%;">Exotic Nuclei: Investigating Neutron Rich Calcium Isotopes</p>
+      <p>Click <a href="exoticnuclie.html"><b>HERE </b></a>to view full project description.</p>
+      <b style="font-size:150%;"> UoY Masters Dissertation: Sep 2021 - Jul 2022</b>
+      <p>The s467 campaign at GSI working in collaboration with R3B proposes that short- and long-range correlations in nucleon-nucleon interactions are the reasoning behind quenching of spectroscopic factors in (p,2p) transfer reactions. The evolution of single-particle strengths in Calcium’s neutron rich isotropic chain is investigated by measuring the cross-section of kinematically complete proton removal reactions performed in inverse kinematics. The approach of the experiment is to calculate the cross-sections by measuring the average energy loss of swift exotic particles as they travel through a Multi-Sampling-Ionisation-Chamber (MUSIC) detector. The project shows that the multiple dependencies of the Bethe-Bloch formula can simultaneously be applied to the detected average energy loss of exotic particles to calibrate and enhance the performance of MUSIC. Taking advantage of MUSICs capabilities for taking multiple measurements over a wide energy range. I created custom C++ scripts to gain match and apply statistical analysis techniques on data trees containing energy loss data on >10,000 of particle collisions for detector calibration. It was found that the detection resolution for Z=20 particles can be increased by 7%. The increased resolution brought on a means of accurately identifying particles in a Cartesian methodology using the sigma separation.</p>
+
+</div>
+</div>
 </div>
 
 </body>
@@ -60,9 +208,9 @@
 <hr></hr>
 
 <footer>
-  <div class="footer">
-      <img src="logo.jpg"><h1 style="position: fixed right;">© copyright 2024 Jude Everitt - All rights reserved. Website Created by Jude Everitt
-  </div>
+<div class="footer">
+<img src="logo.jpg"><h1 style="position: fixed right;">© copyright 2024 Jude Everitt - All rights reserved. Website Created by Jude Everitt
+</div>
 </footer>
 
 </html>
