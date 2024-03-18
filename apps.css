@@ -130,6 +130,11 @@
   text-align: left;
   color: #100101;
 }
+.container8 {
+  position: relative;
+  text-align: left;
+  color: #100101;
+}
   /* Add a colour size, allignment to the projects  text. */
   .projects {
       padding: 60px;
