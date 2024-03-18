@@ -99,8 +99,8 @@
   
   
   
-  /* Education */
-  /* Create three equal columns for education. */
+  /* Projects */
+  /* Create three equal columns for projects */
   .column {
       float: left;
       width: 33.33%;
@@ -112,13 +112,25 @@
       display: table;
       clear: both;
   }
-  /* Add container to contain the Education section. */
+  /* Add container to contain the projects section. */
   .container4 {
       position: relative;
       text-align: left;
       color: #100101;
   }
-  /* Add a colour size, allignment to the education  text. */
+
+  .container6 {
+    position: relative;
+    text-align: left;
+    color: #100101;
+}
+
+.container7 {
+  position: relative;
+  text-align: left;
+  color: #100101;
+}
+  /* Add a colour size, allignment to the projects  text. */
   .projects {
       padding: 60px;
       text-align: left;
